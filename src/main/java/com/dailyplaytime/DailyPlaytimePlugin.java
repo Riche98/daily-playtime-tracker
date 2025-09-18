@@ -1,4 +1,4 @@
-package com.example;
+package com.dailyplaytime;
 
 import com.google.gson.Gson;
 import com.google.inject.Provides;
