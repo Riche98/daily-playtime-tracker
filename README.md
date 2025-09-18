@@ -1,2 +1,2 @@
 # Example
-An example greeter plugin
+A plugin created to upload playtime stats.
