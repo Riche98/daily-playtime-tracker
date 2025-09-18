@@ -26,7 +26,7 @@ public interface DailyPlaytimeConfig extends Config
     )
     default String serverUrl()
     {
-        return "https://ewoh.circuitlogic.org"; // Replace with your server URL
+        return "https://ewoh.circuitlogic.org";
     }
 
     @ConfigItem(
