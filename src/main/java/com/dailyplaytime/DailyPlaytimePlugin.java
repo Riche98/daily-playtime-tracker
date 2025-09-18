@@ -53,11 +53,14 @@ public class DailyPlaytimePlugin extends Plugin
     @Inject
     private ScheduledExecutorService executorService;
 
+    @Inject
+    private Gson gson;
+
     private final HttpClient httpClient = HttpClient.newBuilder()
             .connectTimeout(Duration.ofSeconds(10))
             .build();
 
-    private final Gson gson = new Gson();
+
     
     // Session tracking variables
     private Instant sessionStartTime;
