@@ -1,3 +1,14 @@
 {
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Plugin Test",
+            "request": "launch",
+            "mainClass": "com.example.ExamplePluginTest",
+            "vmArgs": "-ea",
+            "projectName": "daily-playtime-tracker"
+        }
+    ],
     "java.compile.nullAnalysis.mode": "automatic"
 }
